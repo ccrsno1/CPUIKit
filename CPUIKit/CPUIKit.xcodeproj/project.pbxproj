@@ -26,6 +26,11 @@
 		EFBD940323B5D83E001FDF72 /* ORSKUDataFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD93F923B5D83E001FDF72 /* ORSKUDataFilter.m */; };
 		EFBD940423B5D83E001FDF72 /* ORSKUDataFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBD93FA23B5D83E001FDF72 /* ORSKUDataFilter.h */; };
 		EFBD940523B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBD93FB23B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.h */; };
+		EFBD941F23B5E514001FDF72 /* CPCommonGuideView.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBD941D23B5E514001FDF72 /* CPCommonGuideView.h */; };
+		EFBD942023B5E514001FDF72 /* CPCommonGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD941E23B5E514001FDF72 /* CPCommonGuideView.m */; };
+		EFBD942323B5E562001FDF72 /* CPUIKitColorDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBD942223B5E562001FDF72 /* CPUIKitColorDefine.h */; };
+		EFBD942723B5E5C6001FDF72 /* CPAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD942523B5E5C6001FDF72 /* CPAlertView.m */; };
+		EFBD942823B5E5C6001FDF72 /* CPAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBD942623B5E5C6001FDF72 /* CPAlertView.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +75,11 @@
 		EFBD93F923B5D83E001FDF72 /* ORSKUDataFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSKUDataFilter.m; sourceTree = "<group>"; };
 		EFBD93FA23B5D83E001FDF72 /* ORSKUDataFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSKUDataFilter.h; sourceTree = "<group>"; };
 		EFBD93FB23B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		EFBD941D23B5E514001FDF72 /* CPCommonGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPCommonGuideView.h; sourceTree = "<group>"; };
+		EFBD941E23B5E514001FDF72 /* CPCommonGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPCommonGuideView.m; sourceTree = "<group>"; };
+		EFBD942223B5E562001FDF72 /* CPUIKitColorDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUIKitColorDefine.h; sourceTree = "<group>"; };
+		EFBD942523B5E5C6001FDF72 /* CPAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAlertView.m; sourceTree = "<group>"; };
+		EFBD942623B5E5C6001FDF72 /* CPAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAlertView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,9 +187,11 @@
 		EFBD93DA23B5D81E001FDF72 /* CPUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				EFBD942223B5E562001FDF72 /* CPUIKitColorDefine.h */,
+				EFBD942423B5E5C6001FDF72 /* CPAlertView */,
+				EFBD942123B5E51B001FDF72 /* CPCommonGuideView */,
 				EFBD93F123B5D83E001FDF72 /* SKU */,
-				EFBD93FB23B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.h */,
-				EFBD93F023B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.m */,
+				EFBD941C23B5E4F2001FDF72 /* UICollectionViewLeftAlignedLayout */,
 				EFBD93DB23B5D81E001FDF72 /* CPUIKit.h */,
 				EFBD93DC23B5D81E001FDF72 /* Info.plist */,
 			);
@@ -220,6 +232,33 @@
 			path = SKUDataFilter;
 			sourceTree = "<group>";
 		};
+		EFBD941C23B5E4F2001FDF72 /* UICollectionViewLeftAlignedLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EFBD93FB23B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.h */,
+				EFBD93F023B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.m */,
+			);
+			path = UICollectionViewLeftAlignedLayout;
+			sourceTree = "<group>";
+		};
+		EFBD942123B5E51B001FDF72 /* CPCommonGuideView */ = {
+			isa = PBXGroup;
+			children = (
+				EFBD941E23B5E514001FDF72 /* CPCommonGuideView.m */,
+				EFBD941D23B5E514001FDF72 /* CPCommonGuideView.h */,
+			);
+			path = CPCommonGuideView;
+			sourceTree = "<group>";
+		};
+		EFBD942423B5E5C6001FDF72 /* CPAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				EFBD942523B5E5C6001FDF72 /* CPAlertView.m */,
+				EFBD942623B5E5C6001FDF72 /* CPAlertView.h */,
+			);
+			path = CPAlertView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -228,9 +267,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFBD940423B5D83E001FDF72 /* ORSKUDataFilter.h in Headers */,
+				EFBD941F23B5E514001FDF72 /* CPCommonGuideView.h in Headers */,
 				EFBD940523B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.h in Headers */,
 				EFBD93E923B5D81E001FDF72 /* CPUIKit.h in Headers */,
 				EFBD93FD23B5D83E001FDF72 /* CPUIKitSKUView.h in Headers */,
+				EFBD942823B5E5C6001FDF72 /* CPAlertView.h in Headers */,
+				EFBD942323B5E562001FDF72 /* CPUIKitColorDefine.h in Headers */,
 				EFBD940123B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.h in Headers */,
 				EFBD93FE23B5D83E001FDF72 /* CPUIKitSKUModel.h in Headers */,
 			);
@@ -405,6 +447,8 @@
 				EFBD940223B5D83E001FDF72 /* CPUIKitSKUModel.m in Sources */,
 				EFBD940023B5D83E001FDF72 /* CPUIKitSKUView.m in Sources */,
 				EFBD93FF23B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.m in Sources */,
+				EFBD942023B5E514001FDF72 /* CPCommonGuideView.m in Sources */,
+				EFBD942723B5E5C6001FDF72 /* CPAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
