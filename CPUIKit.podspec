@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'CPUIKit/Classes/**/*.{h,m}'
+  s.source_files = 'CPUIKit/CPUIKit/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'CPUIKit' => ['CPUIKit/Assets/*.png']
