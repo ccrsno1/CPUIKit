@@ -1,0 +1,30 @@
+PODS:
+  - JSONModel (1.8.0)
+  - Masonry (1.1.0)
+  - ReactiveObjC (3.1.1)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+
+DEPENDENCIES:
+  - JSONModel
+  - Masonry
+  - ReactiveObjC
+  - YYCategories
+
+SPEC REPOS:
+  trunk:
+    - JSONModel
+    - Masonry
+    - ReactiveObjC
+    - YYCategories
+
+SPEC CHECKSUMS:
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+
+PODFILE CHECKSUM: 861fee9f014edaceb7e503333280223b14b81583
+
+COCOAPODS: 1.8.4

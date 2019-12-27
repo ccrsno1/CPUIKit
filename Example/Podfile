@@ -1,6 +1,14 @@
-use_frameworks!
-target 'CPUIKit_Tests' do
-  pod 'CPUIKit', :path => '../'
-  
-  
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'CPUIKit' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CPUIKit
+  pod 'ReactiveObjC'
+  pod 'JSONModel'
+  pod 'Masonry'
+  pod 'YYCategories'
+
 end

@@ -7,17 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17FF67AB400E08ABFD485058 /* Pods_CPUIKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01C8F19D92BC6946B661573 /* Pods_CPUIKit_Tests.framework */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		700CA98906AFFD171F7D6971 /* Pods_CPUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14784FCEF51EBA04778E8487 /* Pods_CPUIKit.framework */; };
+		EFBD93E223B5D81E001FDF72 /* CPUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBD93D923B5D81E001FDF72 /* CPUIKit.framework */; };
+		EFBD93E723B5D81E001FDF72 /* CPUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD93E623B5D81E001FDF72 /* CPUIKitTests.m */; };
+		EFBD93E923B5D81E001FDF72 /* CPUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBD93DB23B5D81E001FDF72 /* CPUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFBD93FC23B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD93F023B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.m */; };
+		EFBD93FD23B5D83E001FDF72 /* CPUIKitSKUView.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBD93F223B5D83E001FDF72 /* CPUIKitSKUView.h */; };
+		EFBD93FE23B5D83E001FDF72 /* CPUIKitSKUModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBD93F323B5D83E001FDF72 /* CPUIKitSKUModel.h */; };
+		EFBD93FF23B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD93F423B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.m */; };
+		EFBD940023B5D83E001FDF72 /* CPUIKitSKUView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD93F523B5D83E001FDF72 /* CPUIKitSKUView.m */; };
+		EFBD940123B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBD93F623B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.h */; };
+		EFBD940223B5D83E001FDF72 /* CPUIKitSKUModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD93F723B5D83E001FDF72 /* CPUIKitSKUModel.m */; };
+		EFBD940323B5D83E001FDF72 /* ORSKUDataFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD93F923B5D83E001FDF72 /* ORSKUDataFilter.m */; };
+		EFBD940423B5D83E001FDF72 /* ORSKUDataFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBD93FA23B5D83E001FDF72 /* ORSKUDataFilter.h */; };
+		EFBD940523B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBD93FB23B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.h */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EFBD93E323B5D81E001FDF72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBD93D823B5D81E001FDF72;
+			remoteInfo = CPUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		0AD19800EF983E3A2D87BC0D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2901FB6DD5E7EAD0BD30F7DB /* Pods-CPUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CPUIKit_Tests/Pods-CPUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0AD19800EF983E3A2D87BC0D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		14784FCEF51EBA04778E8487 /* Pods_CPUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F21854536053F01F063D60A /* Pods-CPUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPUIKit.debug.xcconfig"; path = "Target Support Files/Pods-CPUIKit/Pods-CPUIKit.debug.xcconfig"; sourceTree = "<group>"; };
+		52482DE8D778CE186F9EB116 /* Pods-CPUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPUIKit.release.xcconfig"; path = "Target Support Files/Pods-CPUIKit/Pods-CPUIKit.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -27,10 +52,24 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		713E30BE465C8DB4A05EA550 /* Pods-CPUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-CPUIKit_Tests/Pods-CPUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A121BF92B902C3EEAA60CAA8 /* CPUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CPUIKit.podspec; path = ../CPUIKit.podspec; sourceTree = "<group>"; };
-		AD1EB9EAA4AD1D49939EB8B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C01C8F19D92BC6946B661573 /* Pods_CPUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A121BF92B902C3EEAA60CAA8 /* CPUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CPUIKit.podspec; path = ../CPUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD1EB9EAA4AD1D49939EB8B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EFBD93D923B5D81E001FDF72 /* CPUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBD93DB23B5D81E001FDF72 /* CPUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPUIKit.h; sourceTree = "<group>"; };
+		EFBD93DC23B5D81E001FDF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBD93E123B5D81E001FDF72 /* CPUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBD93E623B5D81E001FDF72 /* CPUIKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPUIKitTests.m; sourceTree = "<group>"; };
+		EFBD93E823B5D81E001FDF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBD93F023B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		EFBD93F223B5D83E001FDF72 /* CPUIKitSKUView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUIKitSKUView.h; sourceTree = "<group>"; };
+		EFBD93F323B5D83E001FDF72 /* CPUIKitSKUModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUIKitSKUModel.h; sourceTree = "<group>"; };
+		EFBD93F423B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUIKiSKUCollectionViewCell.m; sourceTree = "<group>"; };
+		EFBD93F523B5D83E001FDF72 /* CPUIKitSKUView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUIKitSKUView.m; sourceTree = "<group>"; };
+		EFBD93F623B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUIKiSKUCollectionViewCell.h; sourceTree = "<group>"; };
+		EFBD93F723B5D83E001FDF72 /* CPUIKitSKUModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUIKitSKUModel.m; sourceTree = "<group>"; };
+		EFBD93F923B5D83E001FDF72 /* ORSKUDataFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSKUDataFilter.m; sourceTree = "<group>"; };
+		EFBD93FA23B5D83E001FDF72 /* ORSKUDataFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSKUDataFilter.h; sourceTree = "<group>"; };
+		EFBD93FB23B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +80,22 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				17FF67AB400E08ABFD485058 /* Pods_CPUIKit_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBD93D623B5D81E001FDF72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700CA98906AFFD171F7D6971 /* Pods_CPUIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBD93DE23B5D81E001FDF72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBD93E223B5D81E001FDF72 /* CPUIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,18 +105,17 @@
 		55938343D5F6F7C132A628C8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2901FB6DD5E7EAD0BD30F7DB /* Pods-CPUIKit_Tests.debug.xcconfig */,
-				713E30BE465C8DB4A05EA550 /* Pods-CPUIKit_Tests.release.xcconfig */,
+				1F21854536053F01F063D60A /* Pods-CPUIKit.debug.xcconfig */,
+				52482DE8D778CE186F9EB116 /* Pods-CPUIKit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F5B5195388D20070C39A /* Tests */,
+				EFBD93DA23B5D81E001FDF72 /* CPUIKit */,
+				EFBD93E523B5D81E001FDF72 /* CPUIKitTests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				55938343D5F6F7C132A628C8 /* Pods */,
@@ -73,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				6003F5AE195388D20070C39A /* CPUIKit_Tests.xctest */,
+				EFBD93D923B5D81E001FDF72 /* CPUIKit.framework */,
+				EFBD93E123B5D81E001FDF72 /* CPUIKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +139,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C01C8F19D92BC6946B661573 /* Pods_CPUIKit_Tests.framework */,
+				14784FCEF51EBA04778E8487 /* Pods_CPUIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,20 +171,81 @@
 				AD1EB9EAA4AD1D49939EB8B1 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EFBD93DA23B5D81E001FDF72 /* CPUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EFBD93F123B5D83E001FDF72 /* SKU */,
+				EFBD93FB23B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.h */,
+				EFBD93F023B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.m */,
+				EFBD93DB23B5D81E001FDF72 /* CPUIKit.h */,
+				EFBD93DC23B5D81E001FDF72 /* Info.plist */,
+			);
+			path = CPUIKit;
+			sourceTree = "<group>";
+		};
+		EFBD93E523B5D81E001FDF72 /* CPUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F5B5195388D20070C39A /* Tests */,
+				EFBD93E623B5D81E001FDF72 /* CPUIKitTests.m */,
+				EFBD93E823B5D81E001FDF72 /* Info.plist */,
+			);
+			path = CPUIKitTests;
+			sourceTree = "<group>";
+		};
+		EFBD93F123B5D83E001FDF72 /* SKU */ = {
+			isa = PBXGroup;
+			children = (
+				EFBD93F223B5D83E001FDF72 /* CPUIKitSKUView.h */,
+				EFBD93F323B5D83E001FDF72 /* CPUIKitSKUModel.h */,
+				EFBD93F423B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.m */,
+				EFBD93F523B5D83E001FDF72 /* CPUIKitSKUView.m */,
+				EFBD93F623B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.h */,
+				EFBD93F723B5D83E001FDF72 /* CPUIKitSKUModel.m */,
+				EFBD93F823B5D83E001FDF72 /* SKUDataFilter */,
+			);
+			path = SKU;
+			sourceTree = "<group>";
+		};
+		EFBD93F823B5D83E001FDF72 /* SKUDataFilter */ = {
+			isa = PBXGroup;
+			children = (
+				EFBD93F923B5D83E001FDF72 /* ORSKUDataFilter.m */,
+				EFBD93FA23B5D83E001FDF72 /* ORSKUDataFilter.h */,
+			);
+			path = SKUDataFilter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EFBD93D423B5D81E001FDF72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBD940423B5D83E001FDF72 /* ORSKUDataFilter.h in Headers */,
+				EFBD940523B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.h in Headers */,
+				EFBD93E923B5D81E001FDF72 /* CPUIKit.h in Headers */,
+				EFBD93FD23B5D83E001FDF72 /* CPUIKitSKUView.h in Headers */,
+				EFBD940123B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.h in Headers */,
+				EFBD93FE23B5D83E001FDF72 /* CPUIKitSKUModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6003F5AD195388D20070C39A /* CPUIKit_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "CPUIKit_Tests" */;
 			buildPhases = (
-				5BFA194691B1E1A9CC6ABA48 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				4434509CC26567068FA53C72 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,6 +254,43 @@
 			name = CPUIKit_Tests;
 			productName = CPUIKitTests;
 			productReference = 6003F5AE195388D20070C39A /* CPUIKit_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFBD93D823B5D81E001FDF72 /* CPUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBD93EA23B5D81E001FDF72 /* Build configuration list for PBXNativeTarget "CPUIKit" */;
+			buildPhases = (
+				683A596DF4CC2CD651788EE4 /* [CP] Check Pods Manifest.lock */,
+				EFBD93D423B5D81E001FDF72 /* Headers */,
+				EFBD93D523B5D81E001FDF72 /* Sources */,
+				EFBD93D623B5D81E001FDF72 /* Frameworks */,
+				EFBD93D723B5D81E001FDF72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPUIKit;
+			productName = CPUIKit;
+			productReference = EFBD93D923B5D81E001FDF72 /* CPUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFBD93E023B5D81E001FDF72 /* CPUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBD93ED23B5D81E001FDF72 /* Build configuration list for PBXNativeTarget "CPUIKitTests" */;
+			buildPhases = (
+				EFBD93DD23B5D81E001FDF72 /* Sources */,
+				EFBD93DE23B5D81E001FDF72 /* Frameworks */,
+				EFBD93DF23B5D81E001FDF72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFBD93E423B5D81E001FDF72 /* PBXTargetDependency */,
+			);
+			name = CPUIKitTests;
+			productName = CPUIKitTests;
+			productReference = EFBD93E123B5D81E001FDF72 /* CPUIKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -153,6 +306,14 @@
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
+					EFBD93D823B5D81E001FDF72 = {
+						CreatedOnToolsVersion = 11.3;
+						ProvisioningStyle = Automatic;
+					};
+					EFBD93E023B5D81E001FDF72 = {
+						CreatedOnToolsVersion = 11.3;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "CPUIKit" */;
@@ -160,6 +321,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -169,6 +331,8 @@
 			projectRoot = "";
 			targets = (
 				6003F5AD195388D20070C39A /* CPUIKit_Tests */,
+				EFBD93D823B5D81E001FDF72 /* CPUIKit */,
+				EFBD93E023B5D81E001FDF72 /* CPUIKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -182,28 +346,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		4434509CC26567068FA53C72 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
+		EFBD93D723B5D81E001FDF72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CPUIKit_Tests/Pods-CPUIKit_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CPUIKit/CPUIKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CPUIKit.framework",
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBD93DF23B5D81E001FDF72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CPUIKit_Tests/Pods-CPUIKit_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
-		5BFA194691B1E1A9CC6ABA48 /* [CP] Check Pods Manifest.lock */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		683A596DF4CC2CD651788EE4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -218,7 +378,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CPUIKit_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CPUIKit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -236,7 +396,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFBD93D523B5D81E001FDF72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBD940323B5D83E001FDF72 /* ORSKUDataFilter.m in Sources */,
+				EFBD93FC23B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				EFBD940223B5D83E001FDF72 /* CPUIKitSKUModel.m in Sources */,
+				EFBD940023B5D83E001FDF72 /* CPUIKitSKUView.m in Sources */,
+				EFBD93FF23B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBD93DD23B5D81E001FDF72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBD93E723B5D81E001FDF72 /* CPUIKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFBD93E423B5D81E001FDF72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFBD93D823B5D81E001FDF72 /* CPUIKit */;
+			targetProxy = EFBD93E323B5D81E001FDF72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
@@ -325,7 +513,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2901FB6DD5E7EAD0BD30F7DB /* Pods-CPUIKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -349,7 +536,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 713E30BE465C8DB4A05EA550 /* Pods-CPUIKit_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -364,6 +550,172 @@
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPUIKit_Example.app/CPUIKit_Example";
 				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		EFBD93EB23B5D81E001FDF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F21854536053F01F063D60A /* Pods-CPUIKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = CPUIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ingtube.CPUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFBD93EC23B5D81E001FDF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52482DE8D778CE186F9EB116 /* Pods-CPUIKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = CPUIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ingtube.CPUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFBD93EE23B5D81E001FDF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = CPUIKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ingtube.CPUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFBD93EF23B5D81E001FDF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = CPUIKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ingtube.CPUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -384,6 +736,24 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBD93EA23B5D81E001FDF72 /* Build configuration list for PBXNativeTarget "CPUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBD93EB23B5D81E001FDF72 /* Debug */,
+				EFBD93EC23B5D81E001FDF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBD93ED23B5D81E001FDF72 /* Build configuration list for PBXNativeTarget "CPUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBD93EE23B5D81E001FDF72 /* Debug */,
+				EFBD93EF23B5D81E001FDF72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
