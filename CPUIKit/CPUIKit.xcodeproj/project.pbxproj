@@ -15,6 +15,16 @@
 		700CA98906AFFD171F7D6971 /* Pods_CPUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14784FCEF51EBA04778E8487 /* Pods_CPUIKit.framework */; };
 		EF131BA423C57E9A0053DF22 /* UIControl+HitExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BA223C57E9A0053DF22 /* UIControl+HitExtension.m */; };
 		EF131BA523C57E9A0053DF22 /* UIControl+HitExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BA323C57E9A0053DF22 /* UIControl+HitExtension.h */; };
+		EF131BA923C581650053DF22 /* UILabel+Copyable.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BA723C581650053DF22 /* UILabel+Copyable.h */; };
+		EF131BAA23C581650053DF22 /* UILabel+Copyable.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BA823C581650053DF22 /* UILabel+Copyable.m */; };
+		EF131BB023C581A10053DF22 /* CPUIKitTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BAC23C581A10053DF22 /* CPUIKitTagsView.m */; };
+		EF131BB123C581A10053DF22 /* CPUIKitTagsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BAD23C581A10053DF22 /* CPUIKitTagsViewCell.m */; };
+		EF131BB223C581A10053DF22 /* CPUIKitTagsViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BAE23C581A10053DF22 /* CPUIKitTagsViewCell.h */; };
+		EF131BB323C581A10053DF22 /* CPUIKitTagsView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BAF23C581A10053DF22 /* CPUIKitTagsView.h */; };
+		EF131BB923C581F10053DF22 /* CPSegmentedView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BB523C581F10053DF22 /* CPSegmentedView.h */; };
+		EF131BBA23C581F10053DF22 /* CPSegmentedViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BB623C581F10053DF22 /* CPSegmentedViewCell.m */; };
+		EF131BBB23C581F10053DF22 /* CPSegmentedViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BB723C581F10053DF22 /* CPSegmentedViewCell.h */; };
+		EF131BBC23C581F10053DF22 /* CPSegmentedView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BB823C581F10053DF22 /* CPSegmentedView.m */; };
 		EFBD93E223B5D81E001FDF72 /* CPUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBD93D923B5D81E001FDF72 /* CPUIKit.framework */; };
 		EFBD93E723B5D81E001FDF72 /* CPUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD93E623B5D81E001FDF72 /* CPUIKitTests.m */; };
 		EFBD93E923B5D81E001FDF72 /* CPUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBD93DB23B5D81E001FDF72 /* CPUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -63,6 +73,16 @@
 		AD1EB9EAA4AD1D49939EB8B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EF131BA223C57E9A0053DF22 /* UIControl+HitExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+HitExtension.m"; sourceTree = "<group>"; };
 		EF131BA323C57E9A0053DF22 /* UIControl+HitExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+HitExtension.h"; sourceTree = "<group>"; };
+		EF131BA723C581650053DF22 /* UILabel+Copyable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Copyable.h"; sourceTree = "<group>"; };
+		EF131BA823C581650053DF22 /* UILabel+Copyable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Copyable.m"; sourceTree = "<group>"; };
+		EF131BAC23C581A10053DF22 /* CPUIKitTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUIKitTagsView.m; sourceTree = "<group>"; };
+		EF131BAD23C581A10053DF22 /* CPUIKitTagsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUIKitTagsViewCell.m; sourceTree = "<group>"; };
+		EF131BAE23C581A10053DF22 /* CPUIKitTagsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUIKitTagsViewCell.h; sourceTree = "<group>"; };
+		EF131BAF23C581A10053DF22 /* CPUIKitTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUIKitTagsView.h; sourceTree = "<group>"; };
+		EF131BB523C581F10053DF22 /* CPSegmentedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSegmentedView.h; sourceTree = "<group>"; };
+		EF131BB623C581F10053DF22 /* CPSegmentedViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSegmentedViewCell.m; sourceTree = "<group>"; };
+		EF131BB723C581F10053DF22 /* CPSegmentedViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSegmentedViewCell.h; sourceTree = "<group>"; };
+		EF131BB823C581F10053DF22 /* CPSegmentedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSegmentedView.m; sourceTree = "<group>"; };
 		EFBD93D923B5D81E001FDF72 /* CPUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBD93DB23B5D81E001FDF72 /* CPUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPUIKit.h; sourceTree = "<group>"; };
 		EFBD93DC23B5D81E001FDF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -197,10 +217,45 @@
 			path = "UIButton+HitExtension";
 			sourceTree = "<group>";
 		};
+		EF131BA623C581650053DF22 /* UILabel+Copyable */ = {
+			isa = PBXGroup;
+			children = (
+				EF131BA723C581650053DF22 /* UILabel+Copyable.h */,
+				EF131BA823C581650053DF22 /* UILabel+Copyable.m */,
+			);
+			path = "UILabel+Copyable";
+			sourceTree = "<group>";
+		};
+		EF131BAB23C581A10053DF22 /* CPUIKitTagsView */ = {
+			isa = PBXGroup;
+			children = (
+				EF131BAC23C581A10053DF22 /* CPUIKitTagsView.m */,
+				EF131BAD23C581A10053DF22 /* CPUIKitTagsViewCell.m */,
+				EF131BAE23C581A10053DF22 /* CPUIKitTagsViewCell.h */,
+				EF131BAF23C581A10053DF22 /* CPUIKitTagsView.h */,
+			);
+			path = CPUIKitTagsView;
+			sourceTree = "<group>";
+		};
+		EF131BB423C581F10053DF22 /* CPSegmentedView */ = {
+			isa = PBXGroup;
+			children = (
+				EF131BB523C581F10053DF22 /* CPSegmentedView.h */,
+				EF131BB623C581F10053DF22 /* CPSegmentedViewCell.m */,
+				EF131BB723C581F10053DF22 /* CPSegmentedViewCell.h */,
+				EF131BB823C581F10053DF22 /* CPSegmentedView.m */,
+			);
+			name = CPSegmentedView;
+			path = ../../../../CrowdPower4iPhone/CrowdPower4iPhone/BaseModules/CPUIKit/CPSegmentedView;
+			sourceTree = "<group>";
+		};
 		EFBD93DA23B5D81E001FDF72 /* CPUIKit */ = {
 			isa = PBXGroup;
 			children = (
 				EFBD942223B5E562001FDF72 /* CPUIKitColorDefine.h */,
+				EF131BB423C581F10053DF22 /* CPSegmentedView */,
+				EF131BAB23C581A10053DF22 /* CPUIKitTagsView */,
+				EF131BA623C581650053DF22 /* UILabel+Copyable */,
 				EF131BA123C57E9A0053DF22 /* UIButton+HitExtension */,
 				EFBD942423B5E5C6001FDF72 /* CPAlertView */,
 				EFBD942123B5E51B001FDF72 /* CPCommonGuideView */,
@@ -283,12 +338,17 @@
 				EFBD940423B5D83E001FDF72 /* ORSKUDataFilter.h in Headers */,
 				EFBD941F23B5E514001FDF72 /* CPCommonGuideView.h in Headers */,
 				EFBD940523B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.h in Headers */,
+				EF131BA923C581650053DF22 /* UILabel+Copyable.h in Headers */,
 				EFBD93E923B5D81E001FDF72 /* CPUIKit.h in Headers */,
 				EFBD93FD23B5D83E001FDF72 /* CPUIKitSKUView.h in Headers */,
+				EF131BB223C581A10053DF22 /* CPUIKitTagsViewCell.h in Headers */,
 				EFBD942823B5E5C6001FDF72 /* CPAlertView.h in Headers */,
 				EF131BA523C57E9A0053DF22 /* UIControl+HitExtension.h in Headers */,
 				EFBD942323B5E562001FDF72 /* CPUIKitColorDefine.h in Headers */,
+				EF131BB323C581A10053DF22 /* CPUIKitTagsView.h in Headers */,
+				EF131BB923C581F10053DF22 /* CPSegmentedView.h in Headers */,
 				EFBD940123B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.h in Headers */,
+				EF131BBB23C581F10053DF22 /* CPSegmentedViewCell.h in Headers */,
 				EFBD93FE23B5D83E001FDF72 /* CPUIKitSKUModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,12 +518,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFBD940323B5D83E001FDF72 /* ORSKUDataFilter.m in Sources */,
+				EF131BAA23C581650053DF22 /* UILabel+Copyable.m in Sources */,
 				EFBD93FC23B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				EF131BB023C581A10053DF22 /* CPUIKitTagsView.m in Sources */,
 				EFBD940223B5D83E001FDF72 /* CPUIKitSKUModel.m in Sources */,
 				EFBD940023B5D83E001FDF72 /* CPUIKitSKUView.m in Sources */,
+				EF131BB123C581A10053DF22 /* CPUIKitTagsViewCell.m in Sources */,
 				EFBD93FF23B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.m in Sources */,
 				EFBD942023B5E514001FDF72 /* CPCommonGuideView.m in Sources */,
 				EFBD942723B5E5C6001FDF72 /* CPAlertView.m in Sources */,
+				EF131BBC23C581F10053DF22 /* CPSegmentedView.m in Sources */,
+				EF131BBA23C581F10053DF22 /* CPSegmentedViewCell.m in Sources */,
 				EF131BA423C57E9A0053DF22 /* UIControl+HitExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
