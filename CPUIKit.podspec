@@ -42,5 +42,6 @@ TODO: Add long description of the pod here.
    s.dependency 'ReactiveObjC'
    s.dependency 'JSONModel'
    s.dependency 'YYCategories'
+   s.dependency 'MJRefresh'
    
 end
