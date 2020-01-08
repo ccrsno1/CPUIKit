@@ -21,10 +21,10 @@
 		EF131BB123C581A10053DF22 /* CPUIKitTagsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BAD23C581A10053DF22 /* CPUIKitTagsViewCell.m */; };
 		EF131BB223C581A10053DF22 /* CPUIKitTagsViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BAE23C581A10053DF22 /* CPUIKitTagsViewCell.h */; };
 		EF131BB323C581A10053DF22 /* CPUIKitTagsView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BAF23C581A10053DF22 /* CPUIKitTagsView.h */; };
-		EF131BB923C581F10053DF22 /* CPSegmentedView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BB523C581F10053DF22 /* CPSegmentedView.h */; };
-		EF131BBA23C581F10053DF22 /* CPSegmentedViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BB623C581F10053DF22 /* CPSegmentedViewCell.m */; };
-		EF131BBB23C581F10053DF22 /* CPSegmentedViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BB723C581F10053DF22 /* CPSegmentedViewCell.h */; };
-		EF131BBC23C581F10053DF22 /* CPSegmentedView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BB823C581F10053DF22 /* CPSegmentedView.m */; };
+		EF131BC223C582B70053DF22 /* CPSegmentedView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BBE23C582B70053DF22 /* CPSegmentedView.h */; };
+		EF131BC323C582B70053DF22 /* CPSegmentedViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BBF23C582B70053DF22 /* CPSegmentedViewCell.m */; };
+		EF131BC423C582B70053DF22 /* CPSegmentedViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BC023C582B70053DF22 /* CPSegmentedViewCell.h */; };
+		EF131BC523C582B70053DF22 /* CPSegmentedView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BC123C582B70053DF22 /* CPSegmentedView.m */; };
 		EFBD93E223B5D81E001FDF72 /* CPUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBD93D923B5D81E001FDF72 /* CPUIKit.framework */; };
 		EFBD93E723B5D81E001FDF72 /* CPUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD93E623B5D81E001FDF72 /* CPUIKitTests.m */; };
 		EFBD93E923B5D81E001FDF72 /* CPUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBD93DB23B5D81E001FDF72 /* CPUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -79,10 +79,10 @@
 		EF131BAD23C581A10053DF22 /* CPUIKitTagsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUIKitTagsViewCell.m; sourceTree = "<group>"; };
 		EF131BAE23C581A10053DF22 /* CPUIKitTagsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUIKitTagsViewCell.h; sourceTree = "<group>"; };
 		EF131BAF23C581A10053DF22 /* CPUIKitTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUIKitTagsView.h; sourceTree = "<group>"; };
-		EF131BB523C581F10053DF22 /* CPSegmentedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSegmentedView.h; sourceTree = "<group>"; };
-		EF131BB623C581F10053DF22 /* CPSegmentedViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSegmentedViewCell.m; sourceTree = "<group>"; };
-		EF131BB723C581F10053DF22 /* CPSegmentedViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSegmentedViewCell.h; sourceTree = "<group>"; };
-		EF131BB823C581F10053DF22 /* CPSegmentedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSegmentedView.m; sourceTree = "<group>"; };
+		EF131BBE23C582B70053DF22 /* CPSegmentedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSegmentedView.h; sourceTree = "<group>"; };
+		EF131BBF23C582B70053DF22 /* CPSegmentedViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSegmentedViewCell.m; sourceTree = "<group>"; };
+		EF131BC023C582B70053DF22 /* CPSegmentedViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSegmentedViewCell.h; sourceTree = "<group>"; };
+		EF131BC123C582B70053DF22 /* CPSegmentedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSegmentedView.m; sourceTree = "<group>"; };
 		EFBD93D923B5D81E001FDF72 /* CPUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBD93DB23B5D81E001FDF72 /* CPUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPUIKit.h; sourceTree = "<group>"; };
 		EFBD93DC23B5D81E001FDF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -237,23 +237,22 @@
 			path = CPUIKitTagsView;
 			sourceTree = "<group>";
 		};
-		EF131BB423C581F10053DF22 /* CPSegmentedView */ = {
+		EF131BBD23C582B70053DF22 /* CPSegmentedView */ = {
 			isa = PBXGroup;
 			children = (
-				EF131BB523C581F10053DF22 /* CPSegmentedView.h */,
-				EF131BB623C581F10053DF22 /* CPSegmentedViewCell.m */,
-				EF131BB723C581F10053DF22 /* CPSegmentedViewCell.h */,
-				EF131BB823C581F10053DF22 /* CPSegmentedView.m */,
+				EF131BBE23C582B70053DF22 /* CPSegmentedView.h */,
+				EF131BBF23C582B70053DF22 /* CPSegmentedViewCell.m */,
+				EF131BC023C582B70053DF22 /* CPSegmentedViewCell.h */,
+				EF131BC123C582B70053DF22 /* CPSegmentedView.m */,
 			);
-			name = CPSegmentedView;
-			path = ../../../../CrowdPower4iPhone/CrowdPower4iPhone/BaseModules/CPUIKit/CPSegmentedView;
+			path = CPSegmentedView;
 			sourceTree = "<group>";
 		};
 		EFBD93DA23B5D81E001FDF72 /* CPUIKit */ = {
 			isa = PBXGroup;
 			children = (
 				EFBD942223B5E562001FDF72 /* CPUIKitColorDefine.h */,
-				EF131BB423C581F10053DF22 /* CPSegmentedView */,
+				EF131BBD23C582B70053DF22 /* CPSegmentedView */,
 				EF131BAB23C581A10053DF22 /* CPUIKitTagsView */,
 				EF131BA623C581650053DF22 /* UILabel+Copyable */,
 				EF131BA123C57E9A0053DF22 /* UIButton+HitExtension */,
@@ -346,9 +345,9 @@
 				EF131BA523C57E9A0053DF22 /* UIControl+HitExtension.h in Headers */,
 				EFBD942323B5E562001FDF72 /* CPUIKitColorDefine.h in Headers */,
 				EF131BB323C581A10053DF22 /* CPUIKitTagsView.h in Headers */,
-				EF131BB923C581F10053DF22 /* CPSegmentedView.h in Headers */,
+				EF131BC223C582B70053DF22 /* CPSegmentedView.h in Headers */,
 				EFBD940123B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.h in Headers */,
-				EF131BBB23C581F10053DF22 /* CPSegmentedViewCell.h in Headers */,
+				EF131BC423C582B70053DF22 /* CPSegmentedViewCell.h in Headers */,
 				EFBD93FE23B5D83E001FDF72 /* CPUIKitSKUModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,8 +526,8 @@
 				EFBD93FF23B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.m in Sources */,
 				EFBD942023B5E514001FDF72 /* CPCommonGuideView.m in Sources */,
 				EFBD942723B5E5C6001FDF72 /* CPAlertView.m in Sources */,
-				EF131BBC23C581F10053DF22 /* CPSegmentedView.m in Sources */,
-				EF131BBA23C581F10053DF22 /* CPSegmentedViewCell.m in Sources */,
+				EF131BC523C582B70053DF22 /* CPSegmentedView.m in Sources */,
+				EF131BC323C582B70053DF22 /* CPSegmentedViewCell.m in Sources */,
 				EF131BA423C57E9A0053DF22 /* UIControl+HitExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
