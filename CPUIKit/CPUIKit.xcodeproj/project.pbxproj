@@ -13,6 +13,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		700CA98906AFFD171F7D6971 /* Pods_CPUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14784FCEF51EBA04778E8487 /* Pods_CPUIKit.framework */; };
+		EF131BA423C57E9A0053DF22 /* UIControl+HitExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BA223C57E9A0053DF22 /* UIControl+HitExtension.m */; };
+		EF131BA523C57E9A0053DF22 /* UIControl+HitExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BA323C57E9A0053DF22 /* UIControl+HitExtension.h */; };
 		EFBD93E223B5D81E001FDF72 /* CPUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBD93D923B5D81E001FDF72 /* CPUIKit.framework */; };
 		EFBD93E723B5D81E001FDF72 /* CPUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD93E623B5D81E001FDF72 /* CPUIKitTests.m */; };
 		EFBD93E923B5D81E001FDF72 /* CPUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBD93DB23B5D81E001FDF72 /* CPUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,6 +61,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		A121BF92B902C3EEAA60CAA8 /* CPUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CPUIKit.podspec; path = ../CPUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD1EB9EAA4AD1D49939EB8B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EF131BA223C57E9A0053DF22 /* UIControl+HitExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+HitExtension.m"; sourceTree = "<group>"; };
+		EF131BA323C57E9A0053DF22 /* UIControl+HitExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+HitExtension.h"; sourceTree = "<group>"; };
 		EFBD93D923B5D81E001FDF72 /* CPUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBD93DB23B5D81E001FDF72 /* CPUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPUIKit.h; sourceTree = "<group>"; };
 		EFBD93DC23B5D81E001FDF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -184,10 +188,20 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		EF131BA123C57E9A0053DF22 /* UIButton+HitExtension */ = {
+			isa = PBXGroup;
+			children = (
+				EF131BA223C57E9A0053DF22 /* UIControl+HitExtension.m */,
+				EF131BA323C57E9A0053DF22 /* UIControl+HitExtension.h */,
+			);
+			path = "UIButton+HitExtension";
+			sourceTree = "<group>";
+		};
 		EFBD93DA23B5D81E001FDF72 /* CPUIKit */ = {
 			isa = PBXGroup;
 			children = (
 				EFBD942223B5E562001FDF72 /* CPUIKitColorDefine.h */,
+				EF131BA123C57E9A0053DF22 /* UIButton+HitExtension */,
 				EFBD942423B5E5C6001FDF72 /* CPAlertView */,
 				EFBD942123B5E51B001FDF72 /* CPCommonGuideView */,
 				EFBD93F123B5D83E001FDF72 /* SKU */,
@@ -272,6 +286,7 @@
 				EFBD93E923B5D81E001FDF72 /* CPUIKit.h in Headers */,
 				EFBD93FD23B5D83E001FDF72 /* CPUIKitSKUView.h in Headers */,
 				EFBD942823B5E5C6001FDF72 /* CPAlertView.h in Headers */,
+				EF131BA523C57E9A0053DF22 /* UIControl+HitExtension.h in Headers */,
 				EFBD942323B5E562001FDF72 /* CPUIKitColorDefine.h in Headers */,
 				EFBD940123B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.h in Headers */,
 				EFBD93FE23B5D83E001FDF72 /* CPUIKitSKUModel.h in Headers */,
@@ -449,6 +464,7 @@
 				EFBD93FF23B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.m in Sources */,
 				EFBD942023B5E514001FDF72 /* CPCommonGuideView.m in Sources */,
 				EFBD942723B5E5C6001FDF72 /* CPAlertView.m in Sources */,
+				EF131BA423C57E9A0053DF22 /* UIControl+HitExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
