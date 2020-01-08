@@ -1,6 +1,7 @@
 PODS:
   - JSONModel (1.8.0)
   - Masonry (1.1.0)
+  - MJRefresh (3.3.1)
   - ReactiveObjC (3.1.1)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
@@ -9,6 +10,7 @@ PODS:
 DEPENDENCIES:
   - JSONModel
   - Masonry
+  - MJRefresh
   - ReactiveObjC
   - YYCategories
 
@@ -16,15 +18,17 @@ SPEC REPOS:
   trunk:
     - JSONModel
     - Masonry
+    - MJRefresh
     - ReactiveObjC
     - YYCategories
 
 SPEC CHECKSUMS:
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: 861fee9f014edaceb7e503333280223b14b81583
+PODFILE CHECKSUM: 7577999ecf54411e3828f3b6a8334f02fbdecd4c
 
 COCOAPODS: 1.8.4

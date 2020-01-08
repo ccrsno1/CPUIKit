@@ -25,6 +25,35 @@
 		EF131BC323C582B70053DF22 /* CPSegmentedViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BBF23C582B70053DF22 /* CPSegmentedViewCell.m */; };
 		EF131BC423C582B70053DF22 /* CPSegmentedViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BC023C582B70053DF22 /* CPSegmentedViewCell.h */; };
 		EF131BC523C582B70053DF22 /* CPSegmentedView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BC123C582B70053DF22 /* CPSegmentedView.m */; };
+		EF131BC923C586CD0053DF22 /* NSURL+QueryDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BC723C586CD0053DF22 /* NSURL+QueryDictionary.h */; };
+		EF131BCA23C586CD0053DF22 /* NSURL+QueryDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BC823C586CD0053DF22 /* NSURL+QueryDictionary.m */; };
+		EF131BE623C586ED0053DF22 /* CKCylinderReversibleHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BCC23C586EC0053DF22 /* CKCylinderReversibleHeader.h */; };
+		EF131BE723C586ED0053DF22 /* CKCylinderReversibleFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BCD23C586EC0053DF22 /* CKCylinderReversibleFooter.h */; };
+		EF131BE823C586ED0053DF22 /* CKCylinderReversibleFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BCE23C586EC0053DF22 /* CKCylinderReversibleFooter.m */; };
+		EF131BE923C586ED0053DF22 /* CKCylinderReversibleHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BCF23C586EC0053DF22 /* CKCylinderReversibleHeader.m */; };
+		EF131BEA23C586ED0053DF22 /* TYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BD123C586EC0053DF22 /* TYAlertView.m */; };
+		EF131BEB23C586ED0053DF22 /* TYAlertDropDownAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BD223C586EC0053DF22 /* TYAlertDropDownAnimation.h */; };
+		EF131BEC23C586ED0053DF22 /* UIView+TYAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BD323C586EC0053DF22 /* UIView+TYAutoLayout.h */; };
+		EF131BED23C586ED0053DF22 /* TYShowAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BD423C586EC0053DF22 /* TYShowAlertView.h */; };
+		EF131BEE23C586ED0053DF22 /* UIView+TYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BD523C586EC0053DF22 /* UIView+TYAlertView.m */; };
+		EF131BEF23C586ED0053DF22 /* TYAlertScaleFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BD623C586EC0053DF22 /* TYAlertScaleFadeAnimation.m */; };
+		EF131BF023C586ED0053DF22 /* TYBaseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BD723C586EC0053DF22 /* TYBaseAnimation.h */; };
+		EF131BF123C586ED0053DF22 /* TYAlertFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BD823C586EC0053DF22 /* TYAlertFadeAnimation.m */; };
+		EF131BF223C586ED0053DF22 /* TYAlertController+BlurEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BD923C586EC0053DF22 /* TYAlertController+BlurEffects.m */; };
+		EF131BF323C586ED0053DF22 /* TYAlertController+TransitionAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BDA23C586EC0053DF22 /* TYAlertController+TransitionAnimate.m */; };
+		EF131BF423C586ED0053DF22 /* TYAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BDB23C586EC0053DF22 /* TYAlertController.h */; };
+		EF131BF523C586ED0053DF22 /* UIView+TYAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BDC23C586EC0053DF22 /* UIView+TYAutoLayout.m */; };
+		EF131BF623C586ED0053DF22 /* TYAlertDropDownAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BDD23C586EC0053DF22 /* TYAlertDropDownAnimation.m */; };
+		EF131BF723C586ED0053DF22 /* TYAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BDE23C586EC0053DF22 /* TYAlertView.h */; };
+		EF131BF823C586ED0053DF22 /* UIView+TYAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BDF23C586EC0053DF22 /* UIView+TYAlertView.h */; };
+		EF131BF923C586ED0053DF22 /* TYShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BE023C586EC0053DF22 /* TYShowAlertView.m */; };
+		EF131BFA23C586ED0053DF22 /* TYBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BE123C586EC0053DF22 /* TYBaseAnimation.m */; };
+		EF131BFB23C586ED0053DF22 /* TYAlertScaleFadeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BE223C586EC0053DF22 /* TYAlertScaleFadeAnimation.h */; };
+		EF131BFC23C586ED0053DF22 /* TYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BE323C586EC0053DF22 /* TYAlertController.m */; };
+		EF131BFD23C586ED0053DF22 /* TYAlertController+BlurEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BE423C586EC0053DF22 /* TYAlertController+BlurEffects.h */; };
+		EF131BFE23C586ED0053DF22 /* TYAlertFadeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BE523C586EC0053DF22 /* TYAlertFadeAnimation.h */; };
+		EF131C0123C587660053DF22 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BFF23C587660053DF22 /* UIImage+ImageEffects.m */; };
+		EF131C0223C587660053DF22 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131C0023C587660053DF22 /* UIImage+ImageEffects.h */; };
 		EFBD93E223B5D81E001FDF72 /* CPUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBD93D923B5D81E001FDF72 /* CPUIKit.framework */; };
 		EFBD93E723B5D81E001FDF72 /* CPUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD93E623B5D81E001FDF72 /* CPUIKitTests.m */; };
 		EFBD93E923B5D81E001FDF72 /* CPUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBD93DB23B5D81E001FDF72 /* CPUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -83,6 +112,35 @@
 		EF131BBF23C582B70053DF22 /* CPSegmentedViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSegmentedViewCell.m; sourceTree = "<group>"; };
 		EF131BC023C582B70053DF22 /* CPSegmentedViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSegmentedViewCell.h; sourceTree = "<group>"; };
 		EF131BC123C582B70053DF22 /* CPSegmentedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSegmentedView.m; sourceTree = "<group>"; };
+		EF131BC723C586CD0053DF22 /* NSURL+QueryDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+QueryDictionary.h"; sourceTree = "<group>"; };
+		EF131BC823C586CD0053DF22 /* NSURL+QueryDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+QueryDictionary.m"; sourceTree = "<group>"; };
+		EF131BCC23C586EC0053DF22 /* CKCylinderReversibleHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCylinderReversibleHeader.h; sourceTree = "<group>"; };
+		EF131BCD23C586EC0053DF22 /* CKCylinderReversibleFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCylinderReversibleFooter.h; sourceTree = "<group>"; };
+		EF131BCE23C586EC0053DF22 /* CKCylinderReversibleFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCylinderReversibleFooter.m; sourceTree = "<group>"; };
+		EF131BCF23C586EC0053DF22 /* CKCylinderReversibleHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCylinderReversibleHeader.m; sourceTree = "<group>"; };
+		EF131BD123C586EC0053DF22 /* TYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertView.m; sourceTree = "<group>"; };
+		EF131BD223C586EC0053DF22 /* TYAlertDropDownAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertDropDownAnimation.h; sourceTree = "<group>"; };
+		EF131BD323C586EC0053DF22 /* UIView+TYAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYAutoLayout.h"; sourceTree = "<group>"; };
+		EF131BD423C586EC0053DF22 /* TYShowAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYShowAlertView.h; sourceTree = "<group>"; };
+		EF131BD523C586EC0053DF22 /* UIView+TYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYAlertView.m"; sourceTree = "<group>"; };
+		EF131BD623C586EC0053DF22 /* TYAlertScaleFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertScaleFadeAnimation.m; sourceTree = "<group>"; };
+		EF131BD723C586EC0053DF22 /* TYBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYBaseAnimation.h; sourceTree = "<group>"; };
+		EF131BD823C586EC0053DF22 /* TYAlertFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertFadeAnimation.m; sourceTree = "<group>"; };
+		EF131BD923C586EC0053DF22 /* TYAlertController+BlurEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYAlertController+BlurEffects.m"; sourceTree = "<group>"; };
+		EF131BDA23C586EC0053DF22 /* TYAlertController+TransitionAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYAlertController+TransitionAnimate.m"; sourceTree = "<group>"; };
+		EF131BDB23C586EC0053DF22 /* TYAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertController.h; sourceTree = "<group>"; };
+		EF131BDC23C586EC0053DF22 /* UIView+TYAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYAutoLayout.m"; sourceTree = "<group>"; };
+		EF131BDD23C586EC0053DF22 /* TYAlertDropDownAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertDropDownAnimation.m; sourceTree = "<group>"; };
+		EF131BDE23C586EC0053DF22 /* TYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertView.h; sourceTree = "<group>"; };
+		EF131BDF23C586EC0053DF22 /* UIView+TYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYAlertView.h"; sourceTree = "<group>"; };
+		EF131BE023C586EC0053DF22 /* TYShowAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYShowAlertView.m; sourceTree = "<group>"; };
+		EF131BE123C586EC0053DF22 /* TYBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYBaseAnimation.m; sourceTree = "<group>"; };
+		EF131BE223C586EC0053DF22 /* TYAlertScaleFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertScaleFadeAnimation.h; sourceTree = "<group>"; };
+		EF131BE323C586EC0053DF22 /* TYAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAlertController.m; sourceTree = "<group>"; };
+		EF131BE423C586EC0053DF22 /* TYAlertController+BlurEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TYAlertController+BlurEffects.h"; sourceTree = "<group>"; };
+		EF131BE523C586EC0053DF22 /* TYAlertFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertFadeAnimation.h; sourceTree = "<group>"; };
+		EF131BFF23C587660053DF22 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		EF131C0023C587660053DF22 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		EFBD93D923B5D81E001FDF72 /* CPUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBD93DB23B5D81E001FDF72 /* CPUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPUIKit.h; sourceTree = "<group>"; };
 		EFBD93DC23B5D81E001FDF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -248,10 +306,71 @@
 			path = CPSegmentedView;
 			sourceTree = "<group>";
 		};
+		EF131BC623C586CD0053DF22 /* NSURL+QueryDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				EF131BC723C586CD0053DF22 /* NSURL+QueryDictionary.h */,
+				EF131BC823C586CD0053DF22 /* NSURL+QueryDictionary.m */,
+			);
+			path = "NSURL+QueryDictionary";
+			sourceTree = "<group>";
+		};
+		EF131BCB23C586EC0053DF22 /* CKCylinderReversibleHeader */ = {
+			isa = PBXGroup;
+			children = (
+				EF131BCC23C586EC0053DF22 /* CKCylinderReversibleHeader.h */,
+				EF131BCD23C586EC0053DF22 /* CKCylinderReversibleFooter.h */,
+				EF131BCE23C586EC0053DF22 /* CKCylinderReversibleFooter.m */,
+				EF131BCF23C586EC0053DF22 /* CKCylinderReversibleHeader.m */,
+			);
+			path = CKCylinderReversibleHeader;
+			sourceTree = "<group>";
+		};
+		EF131BD023C586EC0053DF22 /* TYAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				EF131BD123C586EC0053DF22 /* TYAlertView.m */,
+				EF131BD223C586EC0053DF22 /* TYAlertDropDownAnimation.h */,
+				EF131BD323C586EC0053DF22 /* UIView+TYAutoLayout.h */,
+				EF131BD423C586EC0053DF22 /* TYShowAlertView.h */,
+				EF131BD523C586EC0053DF22 /* UIView+TYAlertView.m */,
+				EF131BD623C586EC0053DF22 /* TYAlertScaleFadeAnimation.m */,
+				EF131BD723C586EC0053DF22 /* TYBaseAnimation.h */,
+				EF131BD823C586EC0053DF22 /* TYAlertFadeAnimation.m */,
+				EF131BD923C586EC0053DF22 /* TYAlertController+BlurEffects.m */,
+				EF131BDA23C586EC0053DF22 /* TYAlertController+TransitionAnimate.m */,
+				EF131BDB23C586EC0053DF22 /* TYAlertController.h */,
+				EF131BDC23C586EC0053DF22 /* UIView+TYAutoLayout.m */,
+				EF131BDD23C586EC0053DF22 /* TYAlertDropDownAnimation.m */,
+				EF131BDE23C586EC0053DF22 /* TYAlertView.h */,
+				EF131BDF23C586EC0053DF22 /* UIView+TYAlertView.h */,
+				EF131BE023C586EC0053DF22 /* TYShowAlertView.m */,
+				EF131BE123C586EC0053DF22 /* TYBaseAnimation.m */,
+				EF131BE223C586EC0053DF22 /* TYAlertScaleFadeAnimation.h */,
+				EF131BE323C586EC0053DF22 /* TYAlertController.m */,
+				EF131BE423C586EC0053DF22 /* TYAlertController+BlurEffects.h */,
+				EF131BE523C586EC0053DF22 /* TYAlertFadeAnimation.h */,
+			);
+			path = TYAlertController;
+			sourceTree = "<group>";
+		};
+		EF131C0323C587770053DF22 /* UIImage+ImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				EF131C0023C587660053DF22 /* UIImage+ImageEffects.h */,
+				EF131BFF23C587660053DF22 /* UIImage+ImageEffects.m */,
+			);
+			path = "UIImage+ImageEffects";
+			sourceTree = "<group>";
+		};
 		EFBD93DA23B5D81E001FDF72 /* CPUIKit */ = {
 			isa = PBXGroup;
 			children = (
 				EFBD942223B5E562001FDF72 /* CPUIKitColorDefine.h */,
+				EF131C0323C587770053DF22 /* UIImage+ImageEffects */,
+				EF131BCB23C586EC0053DF22 /* CKCylinderReversibleHeader */,
+				EF131BD023C586EC0053DF22 /* TYAlertController */,
+				EF131BC623C586CD0053DF22 /* NSURL+QueryDictionary */,
 				EF131BBD23C582B70053DF22 /* CPSegmentedView */,
 				EF131BAB23C581A10053DF22 /* CPUIKitTagsView */,
 				EF131BA623C581650053DF22 /* UILabel+Copyable */,
@@ -336,15 +455,29 @@
 			files = (
 				EFBD940423B5D83E001FDF72 /* ORSKUDataFilter.h in Headers */,
 				EFBD941F23B5E514001FDF72 /* CPCommonGuideView.h in Headers */,
+				EF131BED23C586ED0053DF22 /* TYShowAlertView.h in Headers */,
 				EFBD940523B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.h in Headers */,
+				EF131BFB23C586ED0053DF22 /* TYAlertScaleFadeAnimation.h in Headers */,
 				EF131BA923C581650053DF22 /* UILabel+Copyable.h in Headers */,
+				EF131BF423C586ED0053DF22 /* TYAlertController.h in Headers */,
+				EF131BF823C586ED0053DF22 /* UIView+TYAlertView.h in Headers */,
+				EF131BE723C586ED0053DF22 /* CKCylinderReversibleFooter.h in Headers */,
 				EFBD93E923B5D81E001FDF72 /* CPUIKit.h in Headers */,
+				EF131BF023C586ED0053DF22 /* TYBaseAnimation.h in Headers */,
+				EF131BE623C586ED0053DF22 /* CKCylinderReversibleHeader.h in Headers */,
 				EFBD93FD23B5D83E001FDF72 /* CPUIKitSKUView.h in Headers */,
+				EF131C0223C587660053DF22 /* UIImage+ImageEffects.h in Headers */,
+				EF131BFE23C586ED0053DF22 /* TYAlertFadeAnimation.h in Headers */,
+				EF131BF723C586ED0053DF22 /* TYAlertView.h in Headers */,
 				EF131BB223C581A10053DF22 /* CPUIKitTagsViewCell.h in Headers */,
 				EFBD942823B5E5C6001FDF72 /* CPAlertView.h in Headers */,
+				EF131BC923C586CD0053DF22 /* NSURL+QueryDictionary.h in Headers */,
+				EF131BEC23C586ED0053DF22 /* UIView+TYAutoLayout.h in Headers */,
 				EF131BA523C57E9A0053DF22 /* UIControl+HitExtension.h in Headers */,
 				EFBD942323B5E562001FDF72 /* CPUIKitColorDefine.h in Headers */,
 				EF131BB323C581A10053DF22 /* CPUIKitTagsView.h in Headers */,
+				EF131BEB23C586ED0053DF22 /* TYAlertDropDownAnimation.h in Headers */,
+				EF131BFD23C586ED0053DF22 /* TYAlertController+BlurEffects.h in Headers */,
 				EF131BC223C582B70053DF22 /* CPSegmentedView.h in Headers */,
 				EFBD940123B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.h in Headers */,
 				EF131BC423C582B70053DF22 /* CPSegmentedViewCell.h in Headers */,
@@ -517,17 +650,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFBD940323B5D83E001FDF72 /* ORSKUDataFilter.m in Sources */,
+				EF131BCA23C586CD0053DF22 /* NSURL+QueryDictionary.m in Sources */,
+				EF131BF923C586ED0053DF22 /* TYShowAlertView.m in Sources */,
+				EF131BF123C586ED0053DF22 /* TYAlertFadeAnimation.m in Sources */,
+				EF131BE823C586ED0053DF22 /* CKCylinderReversibleFooter.m in Sources */,
 				EF131BAA23C581650053DF22 /* UILabel+Copyable.m in Sources */,
 				EFBD93FC23B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				EF131BF323C586ED0053DF22 /* TYAlertController+TransitionAnimate.m in Sources */,
+				EF131BF623C586ED0053DF22 /* TYAlertDropDownAnimation.m in Sources */,
 				EF131BB023C581A10053DF22 /* CPUIKitTagsView.m in Sources */,
 				EFBD940223B5D83E001FDF72 /* CPUIKitSKUModel.m in Sources */,
+				EF131BEE23C586ED0053DF22 /* UIView+TYAlertView.m in Sources */,
 				EFBD940023B5D83E001FDF72 /* CPUIKitSKUView.m in Sources */,
+				EF131BF223C586ED0053DF22 /* TYAlertController+BlurEffects.m in Sources */,
 				EF131BB123C581A10053DF22 /* CPUIKitTagsViewCell.m in Sources */,
 				EFBD93FF23B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.m in Sources */,
+				EF131C0123C587660053DF22 /* UIImage+ImageEffects.m in Sources */,
 				EFBD942023B5E514001FDF72 /* CPCommonGuideView.m in Sources */,
+				EF131BE923C586ED0053DF22 /* CKCylinderReversibleHeader.m in Sources */,
 				EFBD942723B5E5C6001FDF72 /* CPAlertView.m in Sources */,
+				EF131BEA23C586ED0053DF22 /* TYAlertView.m in Sources */,
+				EF131BEF23C586ED0053DF22 /* TYAlertScaleFadeAnimation.m in Sources */,
 				EF131BC523C582B70053DF22 /* CPSegmentedView.m in Sources */,
+				EF131BFA23C586ED0053DF22 /* TYBaseAnimation.m in Sources */,
 				EF131BC323C582B70053DF22 /* CPSegmentedViewCell.m in Sources */,
+				EF131BF523C586ED0053DF22 /* UIView+TYAutoLayout.m in Sources */,
+				EF131BFC23C586ED0053DF22 /* TYAlertController.m in Sources */,
 				EF131BA423C57E9A0053DF22 /* UIControl+HitExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

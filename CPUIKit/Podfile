@@ -10,5 +10,6 @@ target 'CPUIKit' do
   pod 'JSONModel'
   pod 'Masonry'
   pod 'YYCategories'
+  pod 'MJRefresh'
 
 end
