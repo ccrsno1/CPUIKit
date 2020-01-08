@@ -54,6 +54,35 @@
 		EF131BFE23C586ED0053DF22 /* TYAlertFadeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131BE523C586EC0053DF22 /* TYAlertFadeAnimation.h */; };
 		EF131C0123C587660053DF22 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131BFF23C587660053DF22 /* UIImage+ImageEffects.m */; };
 		EF131C0223C587660053DF22 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131C0023C587660053DF22 /* UIImage+ImageEffects.h */; };
+		EF131C0C23C5A57D0053DF22 /* ZYBannerFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131C0523C5A57D0053DF22 /* ZYBannerFooter.m */; };
+		EF131C0D23C5A57D0053DF22 /* ZYBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131C0623C5A57D0053DF22 /* ZYBannerView.h */; };
+		EF131C0E23C5A57D0053DF22 /* ZYBannerCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131C0723C5A57D0053DF22 /* ZYBannerCell.h */; };
+		EF131C0F23C5A57D0053DF22 /* ZYBannerView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF131C0823C5A57D0053DF22 /* ZYBannerView.bundle */; };
+		EF131C1023C5A57D0053DF22 /* ZYBannerFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131C0923C5A57D0053DF22 /* ZYBannerFooter.h */; };
+		EF131C1123C5A57D0053DF22 /* ZYBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131C0A23C5A57D0053DF22 /* ZYBannerView.m */; };
+		EF131C1223C5A57D0053DF22 /* ZYBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131C0B23C5A57D0053DF22 /* ZYBannerCell.m */; };
+		EF131C1A23C5A5DF0053DF22 /* UIImageView+UIImageView_AliCDNCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131C1823C5A5DE0053DF22 /* UIImageView+UIImageView_AliCDNCache.h */; };
+		EF131C1B23C5A5DF0053DF22 /* UIImageView+UIImageView_AliCDNCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131C1923C5A5DF0053DF22 /* UIImageView+UIImageView_AliCDNCache.m */; };
+		EF131C1F23C5A6030053DF22 /* CPUIKitSeparatorBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131C1D23C5A6030053DF22 /* CPUIKitSeparatorBuilder.m */; };
+		EF131C2023C5A6030053DF22 /* CPUIKitSeparatorBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131C1E23C5A6030053DF22 /* CPUIKitSeparatorBuilder.h */; };
+		EF131C2423C5A6280053DF22 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131C2223C5A6280053DF22 /* NSDate+Utils.m */; };
+		EF131C2523C5A6280053DF22 /* NSDate+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131C2323C5A6280053DF22 /* NSDate+Utils.h */; };
+		EF131C2B23C5A6D90053DF22 /* CPUIKitLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131C2723C5A6D80053DF22 /* CPUIKitLabel.h */; };
+		EF131C2C23C5A6D90053DF22 /* CPUIKitLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131C2823C5A6D80053DF22 /* CPUIKitLabel.m */; };
+		EF131C2D23C5A6D90053DF22 /* CPUIKitCountLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131C2923C5A6D80053DF22 /* CPUIKitCountLabel.m */; };
+		EF131C2E23C5A6D90053DF22 /* CPUIKitCountLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131C2A23C5A6D90053DF22 /* CPUIKitCountLabel.h */; };
+		EF131C3623C5A72C0053DF22 /* CPUIKitDoubleLabelStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131C3023C5A72C0053DF22 /* CPUIKitDoubleLabelStackView.h */; };
+		EF131C3723C5A72C0053DF22 /* CPUIKitMultiColumnStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131C3123C5A72C0053DF22 /* CPUIKitMultiColumnStackView.h */; };
+		EF131C3823C5A72C0053DF22 /* CPUIKitSingleCopyableLabelStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131C3223C5A72C0053DF22 /* CPUIKitSingleCopyableLabelStackView.h */; };
+		EF131C3923C5A72C0053DF22 /* CPUIKitSingleCopyableLabelStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131C3323C5A72C0053DF22 /* CPUIKitSingleCopyableLabelStackView.m */; };
+		EF131C3A23C5A72C0053DF22 /* CPUIKitDoubleLabelStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131C3423C5A72C0053DF22 /* CPUIKitDoubleLabelStackView.m */; };
+		EF131C3B23C5A72C0053DF22 /* CPUIKitMultiColumnStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131C3523C5A72C0053DF22 /* CPUIKitMultiColumnStackView.m */; };
+		EF131C3F23C5A82D0053DF22 /* CPUIKitGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131C3D23C5A82D0053DF22 /* CPUIKitGuideView.m */; };
+		EF131C4023C5A82D0053DF22 /* CPUIKitGuideView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131C3E23C5A82D0053DF22 /* CPUIKitGuideView.h */; };
+		EF131C4423C5A8780053DF22 /* UIButton+ActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131C4223C5A8780053DF22 /* UIButton+ActionButton.m */; };
+		EF131C4523C5A8780053DF22 /* UIButton+ActionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131C4323C5A8780053DF22 /* UIButton+ActionButton.h */; };
+		EF131C4923C5A8BE0053DF22 /* UIDevice+HardwareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF131C4723C5A8BE0053DF22 /* UIDevice+HardwareModel.m */; };
+		EF131C4A23C5A8BE0053DF22 /* UIDevice+HardwareModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EF131C4823C5A8BE0053DF22 /* UIDevice+HardwareModel.h */; };
 		EFBD93E223B5D81E001FDF72 /* CPUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBD93D923B5D81E001FDF72 /* CPUIKit.framework */; };
 		EFBD93E723B5D81E001FDF72 /* CPUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD93E623B5D81E001FDF72 /* CPUIKitTests.m */; };
 		EFBD93E923B5D81E001FDF72 /* CPUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBD93DB23B5D81E001FDF72 /* CPUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -141,6 +170,35 @@
 		EF131BE523C586EC0053DF22 /* TYAlertFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAlertFadeAnimation.h; sourceTree = "<group>"; };
 		EF131BFF23C587660053DF22 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		EF131C0023C587660053DF22 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		EF131C0523C5A57D0053DF22 /* ZYBannerFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBannerFooter.m; sourceTree = "<group>"; };
+		EF131C0623C5A57D0053DF22 /* ZYBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBannerView.h; sourceTree = "<group>"; };
+		EF131C0723C5A57D0053DF22 /* ZYBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBannerCell.h; sourceTree = "<group>"; };
+		EF131C0823C5A57D0053DF22 /* ZYBannerView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYBannerView.bundle; sourceTree = "<group>"; };
+		EF131C0923C5A57D0053DF22 /* ZYBannerFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBannerFooter.h; sourceTree = "<group>"; };
+		EF131C0A23C5A57D0053DF22 /* ZYBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBannerView.m; sourceTree = "<group>"; };
+		EF131C0B23C5A57D0053DF22 /* ZYBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBannerCell.m; sourceTree = "<group>"; };
+		EF131C1823C5A5DE0053DF22 /* UIImageView+UIImageView_AliCDNCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+UIImageView_AliCDNCache.h"; sourceTree = "<group>"; };
+		EF131C1923C5A5DF0053DF22 /* UIImageView+UIImageView_AliCDNCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+UIImageView_AliCDNCache.m"; sourceTree = "<group>"; };
+		EF131C1D23C5A6030053DF22 /* CPUIKitSeparatorBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUIKitSeparatorBuilder.m; sourceTree = "<group>"; };
+		EF131C1E23C5A6030053DF22 /* CPUIKitSeparatorBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUIKitSeparatorBuilder.h; sourceTree = "<group>"; };
+		EF131C2223C5A6280053DF22 /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
+		EF131C2323C5A6280053DF22 /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		EF131C2723C5A6D80053DF22 /* CPUIKitLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUIKitLabel.h; sourceTree = "<group>"; };
+		EF131C2823C5A6D80053DF22 /* CPUIKitLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUIKitLabel.m; sourceTree = "<group>"; };
+		EF131C2923C5A6D80053DF22 /* CPUIKitCountLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUIKitCountLabel.m; sourceTree = "<group>"; };
+		EF131C2A23C5A6D90053DF22 /* CPUIKitCountLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUIKitCountLabel.h; sourceTree = "<group>"; };
+		EF131C3023C5A72C0053DF22 /* CPUIKitDoubleLabelStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUIKitDoubleLabelStackView.h; sourceTree = "<group>"; };
+		EF131C3123C5A72C0053DF22 /* CPUIKitMultiColumnStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUIKitMultiColumnStackView.h; sourceTree = "<group>"; };
+		EF131C3223C5A72C0053DF22 /* CPUIKitSingleCopyableLabelStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUIKitSingleCopyableLabelStackView.h; sourceTree = "<group>"; };
+		EF131C3323C5A72C0053DF22 /* CPUIKitSingleCopyableLabelStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUIKitSingleCopyableLabelStackView.m; sourceTree = "<group>"; };
+		EF131C3423C5A72C0053DF22 /* CPUIKitDoubleLabelStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUIKitDoubleLabelStackView.m; sourceTree = "<group>"; };
+		EF131C3523C5A72C0053DF22 /* CPUIKitMultiColumnStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUIKitMultiColumnStackView.m; sourceTree = "<group>"; };
+		EF131C3D23C5A82D0053DF22 /* CPUIKitGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUIKitGuideView.m; sourceTree = "<group>"; };
+		EF131C3E23C5A82D0053DF22 /* CPUIKitGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUIKitGuideView.h; sourceTree = "<group>"; };
+		EF131C4223C5A8780053DF22 /* UIButton+ActionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ActionButton.m"; sourceTree = "<group>"; };
+		EF131C4323C5A8780053DF22 /* UIButton+ActionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ActionButton.h"; sourceTree = "<group>"; };
+		EF131C4723C5A8BE0053DF22 /* UIDevice+HardwareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HardwareModel.m"; sourceTree = "<group>"; };
+		EF131C4823C5A8BE0053DF22 /* UIDevice+HardwareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HardwareModel.h"; sourceTree = "<group>"; };
 		EFBD93D923B5D81E001FDF72 /* CPUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBD93DB23B5D81E001FDF72 /* CPUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPUIKit.h; sourceTree = "<group>"; };
 		EFBD93DC23B5D81E001FDF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -363,10 +421,111 @@
 			path = "UIImage+ImageEffects";
 			sourceTree = "<group>";
 		};
+		EF131C0423C5A57D0053DF22 /* ZYBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				EF131C0523C5A57D0053DF22 /* ZYBannerFooter.m */,
+				EF131C0623C5A57D0053DF22 /* ZYBannerView.h */,
+				EF131C0723C5A57D0053DF22 /* ZYBannerCell.h */,
+				EF131C0823C5A57D0053DF22 /* ZYBannerView.bundle */,
+				EF131C0923C5A57D0053DF22 /* ZYBannerFooter.h */,
+				EF131C0A23C5A57D0053DF22 /* ZYBannerView.m */,
+				EF131C0B23C5A57D0053DF22 /* ZYBannerCell.m */,
+			);
+			path = ZYBannerView;
+			sourceTree = "<group>";
+		};
+		EF131C1C23C5A5E60053DF22 /* UIImageView+AliCDN */ = {
+			isa = PBXGroup;
+			children = (
+				EF131C1823C5A5DE0053DF22 /* UIImageView+UIImageView_AliCDNCache.h */,
+				EF131C1923C5A5DF0053DF22 /* UIImageView+UIImageView_AliCDNCache.m */,
+			);
+			path = "UIImageView+AliCDN";
+			sourceTree = "<group>";
+		};
+		EF131C2123C5A6070053DF22 /* CPUIKitSeparator */ = {
+			isa = PBXGroup;
+			children = (
+				EF131C1E23C5A6030053DF22 /* CPUIKitSeparatorBuilder.h */,
+				EF131C1D23C5A6030053DF22 /* CPUIKitSeparatorBuilder.m */,
+			);
+			path = CPUIKitSeparator;
+			sourceTree = "<group>";
+		};
+		EF131C2623C5A62D0053DF22 /* NSDate+Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EF131C2323C5A6280053DF22 /* NSDate+Utils.h */,
+				EF131C2223C5A6280053DF22 /* NSDate+Utils.m */,
+			);
+			path = "NSDate+Utils";
+			sourceTree = "<group>";
+		};
+		EF131C2F23C5A6DD0053DF22 /* CPUIKitLabel */ = {
+			isa = PBXGroup;
+			children = (
+				EF131C2A23C5A6D90053DF22 /* CPUIKitCountLabel.h */,
+				EF131C2923C5A6D80053DF22 /* CPUIKitCountLabel.m */,
+				EF131C2723C5A6D80053DF22 /* CPUIKitLabel.h */,
+				EF131C2823C5A6D80053DF22 /* CPUIKitLabel.m */,
+			);
+			path = CPUIKitLabel;
+			sourceTree = "<group>";
+		};
+		EF131C3C23C5A7DF0053DF22 /* CPUIKitStackView */ = {
+			isa = PBXGroup;
+			children = (
+				EF131C3123C5A72C0053DF22 /* CPUIKitMultiColumnStackView.h */,
+				EF131C3523C5A72C0053DF22 /* CPUIKitMultiColumnStackView.m */,
+				EF131C3023C5A72C0053DF22 /* CPUIKitDoubleLabelStackView.h */,
+				EF131C3423C5A72C0053DF22 /* CPUIKitDoubleLabelStackView.m */,
+				EF131C3223C5A72C0053DF22 /* CPUIKitSingleCopyableLabelStackView.h */,
+				EF131C3323C5A72C0053DF22 /* CPUIKitSingleCopyableLabelStackView.m */,
+			);
+			path = CPUIKitStackView;
+			sourceTree = "<group>";
+		};
+		EF131C4123C5A8310053DF22 /* CPUIKitGuideView */ = {
+			isa = PBXGroup;
+			children = (
+				EF131C3E23C5A82D0053DF22 /* CPUIKitGuideView.h */,
+				EF131C3D23C5A82D0053DF22 /* CPUIKitGuideView.m */,
+			);
+			path = CPUIKitGuideView;
+			sourceTree = "<group>";
+		};
+		EF131C4623C5A87B0053DF22 /* CPUIKitButton */ = {
+			isa = PBXGroup;
+			children = (
+				EF131C4323C5A8780053DF22 /* UIButton+ActionButton.h */,
+				EF131C4223C5A8780053DF22 /* UIButton+ActionButton.m */,
+			);
+			path = CPUIKitButton;
+			sourceTree = "<group>";
+		};
+		EF131C4B23C5A8C40053DF22 /* CPUIKitDevice */ = {
+			isa = PBXGroup;
+			children = (
+				EF131C4823C5A8BE0053DF22 /* UIDevice+HardwareModel.h */,
+				EF131C4723C5A8BE0053DF22 /* UIDevice+HardwareModel.m */,
+			);
+			path = CPUIKitDevice;
+			sourceTree = "<group>";
+		};
 		EFBD93DA23B5D81E001FDF72 /* CPUIKit */ = {
 			isa = PBXGroup;
 			children = (
 				EFBD942223B5E562001FDF72 /* CPUIKitColorDefine.h */,
+				EF131C4B23C5A8C40053DF22 /* CPUIKitDevice */,
+				EF131C4623C5A87B0053DF22 /* CPUIKitButton */,
+				EF131C4123C5A8310053DF22 /* CPUIKitGuideView */,
+				EF131C3C23C5A7DF0053DF22 /* CPUIKitStackView */,
+				EF131C2F23C5A6DD0053DF22 /* CPUIKitLabel */,
+				EF131C2623C5A62D0053DF22 /* NSDate+Utils */,
+				EF131C2123C5A6070053DF22 /* CPUIKitSeparator */,
+				EF131C1C23C5A5E60053DF22 /* UIImageView+AliCDN */,
+				EF131C0423C5A57D0053DF22 /* ZYBannerView */,
 				EF131C0323C587770053DF22 /* UIImage+ImageEffects */,
 				EF131BCB23C586EC0053DF22 /* CKCylinderReversibleHeader */,
 				EF131BD023C586EC0053DF22 /* TYAlertController */,
@@ -453,14 +612,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF131C2023C5A6030053DF22 /* CPUIKitSeparatorBuilder.h in Headers */,
 				EFBD940423B5D83E001FDF72 /* ORSKUDataFilter.h in Headers */,
 				EFBD941F23B5E514001FDF72 /* CPCommonGuideView.h in Headers */,
+				EF131C4023C5A82D0053DF22 /* CPUIKitGuideView.h in Headers */,
 				EF131BED23C586ED0053DF22 /* TYShowAlertView.h in Headers */,
+				EF131C2523C5A6280053DF22 /* NSDate+Utils.h in Headers */,
 				EFBD940523B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.h in Headers */,
 				EF131BFB23C586ED0053DF22 /* TYAlertScaleFadeAnimation.h in Headers */,
 				EF131BA923C581650053DF22 /* UILabel+Copyable.h in Headers */,
 				EF131BF423C586ED0053DF22 /* TYAlertController.h in Headers */,
 				EF131BF823C586ED0053DF22 /* UIView+TYAlertView.h in Headers */,
+				EF131C2E23C5A6D90053DF22 /* CPUIKitCountLabel.h in Headers */,
 				EF131BE723C586ED0053DF22 /* CKCylinderReversibleFooter.h in Headers */,
 				EFBD93E923B5D81E001FDF72 /* CPUIKit.h in Headers */,
 				EF131BF023C586ED0053DF22 /* TYBaseAnimation.h in Headers */,
@@ -468,19 +631,29 @@
 				EFBD93FD23B5D83E001FDF72 /* CPUIKitSKUView.h in Headers */,
 				EF131C0223C587660053DF22 /* UIImage+ImageEffects.h in Headers */,
 				EF131BFE23C586ED0053DF22 /* TYAlertFadeAnimation.h in Headers */,
+				EF131C1A23C5A5DF0053DF22 /* UIImageView+UIImageView_AliCDNCache.h in Headers */,
 				EF131BF723C586ED0053DF22 /* TYAlertView.h in Headers */,
 				EF131BB223C581A10053DF22 /* CPUIKitTagsViewCell.h in Headers */,
+				EF131C0E23C5A57D0053DF22 /* ZYBannerCell.h in Headers */,
+				EF131C3823C5A72C0053DF22 /* CPUIKitSingleCopyableLabelStackView.h in Headers */,
+				EF131C2B23C5A6D90053DF22 /* CPUIKitLabel.h in Headers */,
 				EFBD942823B5E5C6001FDF72 /* CPAlertView.h in Headers */,
 				EF131BC923C586CD0053DF22 /* NSURL+QueryDictionary.h in Headers */,
+				EF131C3723C5A72C0053DF22 /* CPUIKitMultiColumnStackView.h in Headers */,
 				EF131BEC23C586ED0053DF22 /* UIView+TYAutoLayout.h in Headers */,
+				EF131C3623C5A72C0053DF22 /* CPUIKitDoubleLabelStackView.h in Headers */,
 				EF131BA523C57E9A0053DF22 /* UIControl+HitExtension.h in Headers */,
 				EFBD942323B5E562001FDF72 /* CPUIKitColorDefine.h in Headers */,
 				EF131BB323C581A10053DF22 /* CPUIKitTagsView.h in Headers */,
 				EF131BEB23C586ED0053DF22 /* TYAlertDropDownAnimation.h in Headers */,
+				EF131C0D23C5A57D0053DF22 /* ZYBannerView.h in Headers */,
+				EF131C4A23C5A8BE0053DF22 /* UIDevice+HardwareModel.h in Headers */,
 				EF131BFD23C586ED0053DF22 /* TYAlertController+BlurEffects.h in Headers */,
 				EF131BC223C582B70053DF22 /* CPSegmentedView.h in Headers */,
 				EFBD940123B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.h in Headers */,
+				EF131C4523C5A8780053DF22 /* UIButton+ActionButton.h in Headers */,
 				EF131BC423C582B70053DF22 /* CPSegmentedViewCell.h in Headers */,
+				EF131C1023C5A57D0053DF22 /* ZYBannerFooter.h in Headers */,
 				EFBD93FE23B5D83E001FDF72 /* CPUIKitSKUModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,6 +772,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF131C0F23C5A57D0053DF22 /* ZYBannerView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,31 +824,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFBD940323B5D83E001FDF72 /* ORSKUDataFilter.m in Sources */,
+				EF131C1B23C5A5DF0053DF22 /* UIImageView+UIImageView_AliCDNCache.m in Sources */,
 				EF131BCA23C586CD0053DF22 /* NSURL+QueryDictionary.m in Sources */,
+				EF131C4923C5A8BE0053DF22 /* UIDevice+HardwareModel.m in Sources */,
 				EF131BF923C586ED0053DF22 /* TYShowAlertView.m in Sources */,
 				EF131BF123C586ED0053DF22 /* TYAlertFadeAnimation.m in Sources */,
 				EF131BE823C586ED0053DF22 /* CKCylinderReversibleFooter.m in Sources */,
 				EF131BAA23C581650053DF22 /* UILabel+Copyable.m in Sources */,
+				EF131C3923C5A72C0053DF22 /* CPUIKitSingleCopyableLabelStackView.m in Sources */,
 				EFBD93FC23B5D83E001FDF72 /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				EF131C4423C5A8780053DF22 /* UIButton+ActionButton.m in Sources */,
 				EF131BF323C586ED0053DF22 /* TYAlertController+TransitionAnimate.m in Sources */,
 				EF131BF623C586ED0053DF22 /* TYAlertDropDownAnimation.m in Sources */,
+				EF131C3A23C5A72C0053DF22 /* CPUIKitDoubleLabelStackView.m in Sources */,
+				EF131C1223C5A57D0053DF22 /* ZYBannerCell.m in Sources */,
 				EF131BB023C581A10053DF22 /* CPUIKitTagsView.m in Sources */,
 				EFBD940223B5D83E001FDF72 /* CPUIKitSKUModel.m in Sources */,
+				EF131C2C23C5A6D90053DF22 /* CPUIKitLabel.m in Sources */,
 				EF131BEE23C586ED0053DF22 /* UIView+TYAlertView.m in Sources */,
+				EF131C1F23C5A6030053DF22 /* CPUIKitSeparatorBuilder.m in Sources */,
+				EF131C2D23C5A6D90053DF22 /* CPUIKitCountLabel.m in Sources */,
 				EFBD940023B5D83E001FDF72 /* CPUIKitSKUView.m in Sources */,
+				EF131C2423C5A6280053DF22 /* NSDate+Utils.m in Sources */,
 				EF131BF223C586ED0053DF22 /* TYAlertController+BlurEffects.m in Sources */,
 				EF131BB123C581A10053DF22 /* CPUIKitTagsViewCell.m in Sources */,
+				EF131C3F23C5A82D0053DF22 /* CPUIKitGuideView.m in Sources */,
 				EFBD93FF23B5D83E001FDF72 /* CPUIKiSKUCollectionViewCell.m in Sources */,
 				EF131C0123C587660053DF22 /* UIImage+ImageEffects.m in Sources */,
 				EFBD942023B5E514001FDF72 /* CPCommonGuideView.m in Sources */,
 				EF131BE923C586ED0053DF22 /* CKCylinderReversibleHeader.m in Sources */,
+				EF131C1123C5A57D0053DF22 /* ZYBannerView.m in Sources */,
 				EFBD942723B5E5C6001FDF72 /* CPAlertView.m in Sources */,
 				EF131BEA23C586ED0053DF22 /* TYAlertView.m in Sources */,
 				EF131BEF23C586ED0053DF22 /* TYAlertScaleFadeAnimation.m in Sources */,
 				EF131BC523C582B70053DF22 /* CPSegmentedView.m in Sources */,
 				EF131BFA23C586ED0053DF22 /* TYBaseAnimation.m in Sources */,
 				EF131BC323C582B70053DF22 /* CPSegmentedViewCell.m in Sources */,
+				EF131C3B23C5A72C0053DF22 /* CPUIKitMultiColumnStackView.m in Sources */,
 				EF131BF523C586ED0053DF22 /* UIView+TYAutoLayout.m in Sources */,
+				EF131C0C23C5A57D0053DF22 /* ZYBannerFooter.m in Sources */,
 				EF131BFC23C586ED0053DF22 /* TYAlertController.m in Sources */,
 				EF131BA423C57E9A0053DF22 /* UIControl+HitExtension.m in Sources */,
 			);

@@ -3,6 +3,10 @@ PODS:
   - Masonry (1.1.0)
   - MJRefresh (3.3.1)
   - ReactiveObjC (3.1.1)
+  - SDWebImage (5.4.2):
+    - SDWebImage/Core (= 5.4.2)
+  - SDWebImage/Core (5.4.2)
+  - SVProgressHUD (2.2.5)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
@@ -12,6 +16,8 @@ DEPENDENCIES:
   - Masonry
   - MJRefresh
   - ReactiveObjC
+  - SDWebImage
+  - SVProgressHUD
   - YYCategories
 
 SPEC REPOS:
@@ -20,6 +26,8 @@ SPEC REPOS:
     - Masonry
     - MJRefresh
     - ReactiveObjC
+    - SDWebImage
+    - SVProgressHUD
     - YYCategories
 
 SPEC CHECKSUMS:
@@ -27,8 +35,10 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: 4ca2dc4eefae4224bea8f504251cda485a363745
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: 7577999ecf54411e3828f3b6a8334f02fbdecd4c
+PODFILE CHECKSUM: afd0fcf9d954943c1c88c72aa437f40eae395996
 
 COCOAPODS: 1.8.4

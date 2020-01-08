@@ -43,5 +43,9 @@ TODO: Add long description of the pod here.
    s.dependency 'JSONModel'
    s.dependency 'YYCategories'
    s.dependency 'MJRefresh'
+   s.dependency 'SDWebImage'
+   s.dependency 'SVProgressHUD'
+
+
    
 end

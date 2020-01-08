@@ -11,5 +11,7 @@ target 'CPUIKit' do
   pod 'Masonry'
   pod 'YYCategories'
   pod 'MJRefresh'
+  pod 'SDWebImage'
+  pod 'SVProgressHUD'
 
 end
