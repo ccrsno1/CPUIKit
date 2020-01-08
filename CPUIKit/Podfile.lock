@@ -7,6 +7,7 @@ PODS:
     - SDWebImage/Core (= 5.4.2)
   - SDWebImage/Core (5.4.2)
   - SVProgressHUD (2.2.5)
+  - "UITextView+Placeholder (1.3.3)"
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
@@ -18,6 +19,7 @@ DEPENDENCIES:
   - ReactiveObjC
   - SDWebImage
   - SVProgressHUD
+  - "UITextView+Placeholder"
   - YYCategories
 
 SPEC REPOS:
@@ -28,6 +30,7 @@ SPEC REPOS:
     - ReactiveObjC
     - SDWebImage
     - SVProgressHUD
+    - "UITextView+Placeholder"
     - YYCategories
 
 SPEC CHECKSUMS:
@@ -37,8 +40,9 @@ SPEC CHECKSUMS:
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: 4ca2dc4eefae4224bea8f504251cda485a363745
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  "UITextView+Placeholder": c407b27599ea23cca425946fee3cf1db5d547008
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: afd0fcf9d954943c1c88c72aa437f40eae395996
+PODFILE CHECKSUM: b86d593b8d1ae1f1a2c5d65838cc91e67ade03bc
 
 COCOAPODS: 1.8.4

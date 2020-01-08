@@ -13,5 +13,6 @@ target 'CPUIKit' do
   pod 'MJRefresh'
   pod 'SDWebImage'
   pod 'SVProgressHUD'
+  pod 'UITextView+Placeholder'
 
 end

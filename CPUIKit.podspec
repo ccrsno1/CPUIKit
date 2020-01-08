@@ -32,9 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'CPUIKit/CPUIKit/**/*.{h,m}'
   
-  # s.resource_bundles = {
-  #   'CPUIKit' => ['CPUIKit/Assets/*.png']
-  # }
+  s.resources    = 'CPUIKit/CPUIKit/**/*.bundle'
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
@@ -45,7 +44,6 @@ TODO: Add long description of the pod here.
    s.dependency 'MJRefresh'
    s.dependency 'SDWebImage'
    s.dependency 'SVProgressHUD'
+   s.dependency 'UITextView+Placeholder'
 
-
-   
 end
